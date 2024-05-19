@@ -1,25 +1,86 @@
 :root {
     --background-color: #D7CBDD;
-    --secondary-heading: #
+    --text-color: #4A4A4A;
+    --heading-font: "DM Serif Display", serif;
 }
 
-body {
-    background: var(--background-color);
-}
 h1 {
-    font-family: "DM Serif Display", serif;
+    font-family: var(--heading-font)
     font-weight: 400;
-    font-style: italic;
+    font-style: body;
+    font-size: 40px;   
 }
 
 h2 {
-    font-family: "DM Serif Display", serif;
+    font-family: var(--heading-font)
     font-weight: 400;
     font-style: normal;
 }
 
 h4 {
-    font-family: "DM Serif Display", serif;
+    font-family: var(--heading-font)
     font-weight: 400;
     font-style: normal;
+    font-size: 10px;
 }
+
+p {
+    color: var(--text-color);
+}
+
+body {
+    background: var(--background-color);
+    margin: 0;
+    display: flex;
+    min-height: 100dvh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    width:100dvw;
+    background-color: #f5e6fc;
+    margin: 0;
+    gap: 8px;
+    justify-content: space-around;
+    padding: 16px 0;
+    position: fixed;
+    /* find out how to make nav bar sticky */
+}
+nav a {
+    color: #866363;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-style: none;
+    font-size: 12px;
+}
+
+.introduction {
+    padding-top: 100px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.overview-projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overview-projects img {
+    /* fyi this max width is for mobile */
+   max-width: 85dvw;
+   border-radius: 10%;
+   transition: all .4s ease;
+   
+}
+
+.overview-projects img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem beige);
