@@ -24,12 +24,13 @@
 <main>
     <div class="introduction">
         <article id="introduction-name">
-            <h1 style="line-height:1px;">Hello,</h1> 
-            <h1 style="line-height:2px">my name is Tiffany</h1>
-            <h4 style="line-height:0.5px">junior web developer</h4>
+            <h1 style="line-height:0.1">Hello,</h1> 
+            <h1 style="line-height:0.1">my name is Tiffany</h1>
+            <h4 style="line-height:0.1">junior web developer</h4>
         </article>
         <!-- graphical component #1 - photo of me -->
-        <img id="introduction-photo" src="" alt="photo of me">
+        <div class="introduction-photo"></div>
+        <!-- add in photo later -->
     </div>
 
     <div class="overview-projects">
@@ -51,8 +52,9 @@
 
 
 <!-- text component #2 - contact form -->
-   <div class="get-in-touch">
+<article class="get-in-touch">
     <h2>Get in touch</h2>
+   <div class="contact-form">
     <div class="form-elements">
         <label>Name:</label>
         <input type="text" class="form-input">
@@ -67,12 +69,13 @@
     </div>
     <div class="form-elements">
                 <label>Message:</label>
-                <textarea rows="3" class=" form-input form-textare"></textarea>
+                <textarea rows="3" class=" form-input form-textare" style="resize: none;"></textarea>
     </div>
     <div class="button-div">
         <button id="submit">Submit</button>
     </div>
    </div>
+</article>
 </main>
     
 <footer>
