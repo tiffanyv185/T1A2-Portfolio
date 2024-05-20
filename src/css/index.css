@@ -39,9 +39,7 @@ nav {
     display: flex;
     width:100dvw;
     background-color: #f5e6fc;
-    margin: 0;
-    gap: 8px;
-    padding: 16px 0;
+    padding: 16px 10px;
     position: fixed;
 }
 
@@ -51,8 +49,13 @@ nav a {
     font-family: var(--heading-font);
     font-weight: 400;
     font-style: none;
-    
+    }
+
+nav a:hover {
+    color: #ad8484;
+    transform: scale(1.1);
 }
+
 
 .introduction {  
     display: flex;
@@ -78,6 +81,7 @@ nav a {
 .overview-projects img:hover {
     transform: scale(1.05);
     filter: drop-shadow(0 0 0.75rem beige);
+    z-index: 2;
 }
 
 
@@ -93,12 +97,11 @@ nav a {
 
 .contact-form {
     background-color: white;
-    padding: 15px 80px;
     border-radius: 20%;
 }
 
 label {
-        display: block;
+    display: block;
     font-family: var(--heading-font);
     color: #4A4A4A;
 }
@@ -123,7 +126,7 @@ input, textarea {
 footer {
     background-color: rgba(255,255,255,0.5);
     box-shadow: 0 1px 12px rgba(0, 0, 0,0.25);
-    border: 1px solid rgba(255,255,255,0.3)
+    border: 1px solid rgba(255,255,255,0.3);
     backdrop-filter: blur(20px);
     text-align: center;
     margin-top: 32px;
@@ -204,8 +207,116 @@ footer {
         width: 100px;
         margin-top: 12px;
     }
+.social-media {
+    gap: 20px;
+}
 
 .social-media a i {
     font-size: 20px;
     }
+}
+
+/* styling for tablets and desktop */
+@media screen and (min-width:600px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    nav {
+        justify-content: start;
+        gap: 84px;
+    }
+
+    nav.a {
+        font-size: 78px;
+    }
+
+    .introduction {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px
+    }
+
+    .introduction-photo {
+        height: 320px;
+        width: 320px;
+        box-sizing: border-box;
+    }
+
+    .overview-projects {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .overview-projects-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .overview-projects img {
+        max-width: 30dvw;
+    }
+
+    .contact-form {
+        padding: 80px; 
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+
+    input {
+        height: 20px;
+        width: 200px
+    }
+
+    textarea {
+        width: 200px
+    }
+
+    #submit {
+        font-size: 20px;
+        margin-top: 8px;
+
+    }
+
+    .social-media {
+        gap: 60px
+    }
+    .social-media a i {
+        font-size: 32px;
+    }
+
+}
+
+/* styling of headings and intro for tablet */
+@media screen and (min-width:600px) and (max-width:1024px) {
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+        
+        .introduction-photo {
+            height: 200px;
+            width: 200px;
+        }
 }
