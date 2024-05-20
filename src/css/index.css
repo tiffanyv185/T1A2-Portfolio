@@ -223,7 +223,7 @@ footer {
     }
 
     h2 {
-        font-size: 48px;
+        font-size: 40px;
         margin-bottom: 0px;
     }
 
@@ -234,6 +234,7 @@ footer {
     nav {
         justify-content: start;
         gap: 84px;
+        padding-left: 100px;
     }
 
     nav.a {
@@ -267,9 +268,11 @@ footer {
     .overview-projects img {
         max-width: 30dvw;
     }
-
+    .get-in-touch {
+        padding-top: 48px;
+    }
     .contact-form {
-        padding: 80px; 
+        padding: 40px 80px; 
     }
 
     label {
@@ -279,11 +282,11 @@ footer {
 
     input {
         height: 20px;
-        width: 200px
+        width: 240px
     }
 
     textarea {
-        width: 200px
+        width: 240px;
     }
 
     #submit {
