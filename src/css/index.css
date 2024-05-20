@@ -5,16 +5,18 @@
 }
 
 h1 {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
     font-weight: 400;
-    font-style: body;
-    font-size: 40px;   
+    font-style: italic;
+    font-size: 36px;   
 }
 
 h2 {
     font-family: var(--heading-font)
     font-weight: 400;
     font-style: normal;
+    font-size: 24px;
+    margin-bottom: 2px;
 }
 
 h4 {
@@ -54,24 +56,24 @@ nav a {
     font-family: var(--heading-font);
     font-weight: 400;
     font-style: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .introduction {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-
-    
-
+    gap: 20px;
 }   
 
 .introduction-photo {
-    height:100px;
-    width: 100px;
+    padding-top:100px;
+    box-sizing: border-box;
+    height:120px;
+    width: 120px;
     background-color: grey;
     border-radius: 50%;
 }
@@ -84,7 +86,7 @@ nav a {
 
 .overview-projects img {
     /* fyi this max width is for mobile */
-   max-width: 85dvw;
+   max-width: 80dvw;
    border-radius: 10%;
    transition: all .4s ease;
    
@@ -104,27 +106,60 @@ nav a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 .contact-form {
     background-color: white;
-    padding: 15px 40px;
+    padding: 15px 80px;
     border-radius: 20%;
-    text-align: left;
 }
 
 
 label {
     display: block;
-    padding-bottom: 2px;
+    /* padding-bottom: -1px; */
     padding-top: 4px;
     font-family: var(--heading-font);
+    color: #4A4A4A;
 }
 
 input, textarea {
-    background-color: var(--background-color);
+    background-color: #F4E8FC;
     border: none;
     border-radius: 5%;
-    width: 140px
+    width: 140px;
+}
+
+.form-input:focus {
+    background-color: white;
+}
+
+
+
+#submit {
+    background-color: #F4E8FC;
+    border: none;
+    padding: 6px;
+    border-radius: 5%;
+    width: 100px;
+    margin-top: 12px;
+    
+}
+
+footer {
+    background-color: #f5e6fc;
+    text-align: center;
+    margin-top: 32px;
+    padding: 16px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media a i {
+    font-size: 20px;
+    color: #4A4A4A;
 }
