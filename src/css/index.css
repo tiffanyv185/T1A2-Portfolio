@@ -7,23 +7,19 @@
 h1 {
     font-family: var(--heading-font);
     font-weight: 400;
-    font-style: italic;
-    font-size: 36px;   
+    font-style: italic; 
 }
 
 h2 {
     font-family: var(--heading-font)
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
-    margin-bottom: 2px;
 }
 
 h4 {
     font-family: var(--heading-font)
     font-weight: 400;
     font-style: normal;
-    font-size: 10px;
 }
 
 p {
@@ -45,51 +41,38 @@ nav {
     background-color: #f5e6fc;
     margin: 0;
     gap: 8px;
-    justify-content: space-around;
     padding: 16px 0;
     position: fixed;
-    /* find out how to make nav bar sticky */
 }
+
 nav a {
     color: #866363;
     text-decoration: none;
     font-family: var(--heading-font);
     font-weight: 400;
     font-style: none;
-    font-size: 16px;
+    
 }
 
-.introduction {
-    padding-top: 120px;
-    padding-bottom: 60px;
+.introduction {  
     display: flex;
-    flex-direction: column;
     text-align: center;
-    align-items: center;
-    gap: 20px;
+    align-items: center;   
 }   
 
 .introduction-photo {
-    padding-top:100px;
-    box-sizing: border-box;
-    height:120px;
-    width: 120px;
     background-color: grey;
     border-radius: 50%;
 }
+
 .overview-projects {
     display: flex;
-    align-items: center;
-    flex-direction: column;
     text-align: center;
 }
 
 .overview-projects img {
-    /* fyi this max width is for mobile */
-   max-width: 80dvw;
    border-radius: 10%;
-   transition: all .4s ease;
-   
+   transition: all .4s ease; 
 }
 
 .overview-projects img:hover {
@@ -114,11 +97,8 @@ nav a {
     border-radius: 20%;
 }
 
-
 label {
-    display: block;
-    /* padding-bottom: -1px; */
-    padding-top: 4px;
+        display: block;
     font-family: var(--heading-font);
     color: #4A4A4A;
 }
@@ -127,28 +107,24 @@ input, textarea {
     background-color: #F4E8FC;
     border: none;
     border-radius: 5%;
-    width: 140px;
 }
 
 .form-input:focus {
     background-color: white;
 }
 
-
-
 #submit {
     background-color: #F4E8FC;
     border: none;
-    padding: 6px;
-    border-radius: 5%;
-    width: 100px;
-    margin-top: 12px;
     font-family: var(--heading-font);
     color: #4A4A4A;
 }
 
 footer {
-    background-color: #f5e6fc;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0,0.25);
+    border: 1px solid rgba(255,255,255,0.3)
+    backdrop-filter: blur(20px);
     text-align: center;
     margin-top: 32px;
     padding: 16px;
@@ -161,6 +137,75 @@ footer {
 }
 
 .social-media a i {
-    font-size: 20px;
     color: #4A4A4A;
+}
+
+/* styling for mobile */
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin-bottom: 2px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    nav {
+        justify-content: space-around;
+    }
+
+    nav.a {
+        font-size: 16px;
+    }
+
+    .introduction {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    .introduction-photo {
+        padding-top:100px;
+        box-sizing: border-box;
+        height:120px;
+        width: 120px;
+    }
+
+    .overview-projects {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .overview-projects img {
+        max-width: 80dvw;
+    }
+
+    .contact-form {
+        padding: 15px 80px;
+    }
+
+    label {
+        padding-top: 4px;
+    }
+
+    input, textarea {
+        width: 140px;
+    }
+
+    #submit {
+        padding: 6px;
+        border-radius: 5%;
+        width: 100px;
+        margin-top: 12px;
+    }
+
+.social-media a i {
+    font-size: 20px;
+    }
 }
