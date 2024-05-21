@@ -1,17 +1,49 @@
-button {
-    padding: 5px 20px;
-    font-family: var(--text-font);
-    background-color: #f2bfcc;
-    border: none;
-    border-radius: 10%;
-}
+/* graphical component #2 - button changes shapes and colours when hovered over */
+.btn-resume {  
+    font-family: var(--text-font)  
+    text-transform: uppercase;
+    font-size: 16px
+}  
 
-button:hover {
+.btn-resume:hover .btn-slide-show-text1 {  
+    margin-left: 65px;
+}  
 
-}
+.btn-resume{  
+    height: 46px;  
+    width: 244px;  
+    font-size: 16px;  
+    font-weight: 600;  
+    background: transparent;  
+    cursor: pointer;  
+    transition: all 0.5s ease-in 0s;
+}  
+
+.btn-resume:hover {  
+    border-radius: 60px; 
+    color: rgb(255, 255, 255) !important;
+}  
+
+.btn-resume{  
+    border: 2px dashed rgb(255, 99, 146);  
+    color: rgb(243, 138, 170) !important;
+}  
+
+.btn-resume:hover {  
+    border-color: rgb(210, 118, 145);  
+    background: rgb(223, 117, 149);}  
+
 
 /* styling for mobile */
 @media screen and (max-width:600px) {
+
+    #about-me-photo {
+        width: 160px;
+        height:160px;
+        background-color: grey;
+        border-radius: 50%;
+        margin-top: 100px
+    }
     .about-me {
         display: flex;
         flex-direction: column;
@@ -19,11 +51,22 @@ button:hover {
         align-items: center;
     }
 
+    #about-me-header {
+        margin-bottom: 0
+    }
+
     .about-me p {
        width: 80dvw;
     }
 
-    button {
-        padding: 5px 20px;
+    .btn-resume {
+        padding: 4px 16px;
+        margin-bottom: 10px;
+        margin-top: 28px
+    }
+    .about-me-links a i {
+        font-size: 30px;
+        color: #8f5551;
     }
 }
+    
