@@ -2,6 +2,7 @@
     --background-color: #D7CBDD;
     --text-color: #4A4A4A;
     --heading-font: "DM Serif Display", serif;
+    --text-font: "Roboto", sans-serif;
 }
 
 h1 {
@@ -24,10 +25,13 @@ h4 {
 
 p {
     color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 300;
+    font-style: birnak;
 }
 
 body {
-    background: var(--background-color);
+    background: linear-gradient(180deg, rgba(242,191,204,1) 0%, rgba(254,229,149,1) 100%);
     margin: 0;
     display: flex;
     min-height: 100dvh;
@@ -38,7 +42,11 @@ body {
 nav {
     display: flex;
     width:100dvw;
-    background-color: #f5e6fc;
+    /* background-color: #f5e6fc; */
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0,0.25);
+    border: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(20px);
     padding: 16px 10px;
     position: fixed;
 }
@@ -49,11 +57,9 @@ nav a {
     font-family: var(--heading-font);
     font-weight: 400;
     font-style: none;
-    }
-
+}
 nav a:hover {
     color: #ad8484;
-    transform: scale(1.1);
 }
 
 
@@ -65,7 +71,7 @@ nav a:hover {
 
 .introduction-photo {
     background-color: grey;
-    border-radius: 50%;
+    
 }
 
 .overview-projects {
@@ -75,13 +81,14 @@ nav a:hover {
 
 .overview-projects img {
    border-radius: 10%;
-   transition: all .4s ease; 
+   
 }
 
 .overview-projects img:hover {
     transform: scale(1.05);
     filter: drop-shadow(0 0 0.75rem beige);
     z-index: 2;
+    transition: all .4s ease; 
 }
 
 
@@ -107,17 +114,20 @@ label {
 }
 
 input, textarea {
-    background-color: #F4E8FC;
+    background-color: #f2bfcc;
+    opacity: 0.5;
     border: none;
     border-radius: 5%;
 }
 
 .form-input:focus {
     background-color: white;
+    outline-color: #fee595;
 }
 
 #submit {
-    background-color: #F4E8FC;
+    background-color: #f2bfcc;
+    opacity: 0.5;
     border: none;
     font-family: var(--heading-font);
     color: #4A4A4A;
@@ -141,6 +151,10 @@ footer {
 
 .social-media a i {
     color: #4A4A4A;
+}
+
+.social-media a i:hover {
+    transform: translateY(4px);
 }
 
 /* styling for mobile */
@@ -178,6 +192,7 @@ footer {
         box-sizing: border-box;
         height:120px;
         width: 120px;
+        border-radius: 50%;
     }
 
     .overview-projects {
@@ -186,7 +201,7 @@ footer {
     }
 
     .overview-projects img {
-        max-width: 80dvw;
+        max-width: 70dvw;
     }
 
     .contact-form {
@@ -242,7 +257,7 @@ footer {
     }
 
     .introduction {
-        padding-top: 120px;
+        padding-top: 200px;
         padding-bottom: 120px;
         flex-direction: row;
         justify-content: center;
@@ -254,6 +269,7 @@ footer {
         height: 320px;
         width: 320px;
         box-sizing: border-box;
+        border-radius: 400px 400px 0 0;
     }
 
     .overview-projects {

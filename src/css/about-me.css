@@ -1,0 +1,29 @@
+button {
+    padding: 5px 20px;
+    font-family: var(--text-font);
+    background-color: #f2bfcc;
+    border: none;
+    border-radius: 10%;
+}
+
+button:hover {
+
+}
+
+/* styling for mobile */
+@media screen and (max-width:600px) {
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-me p {
+       width: 80dvw;
+    }
+
+    button {
+        padding: 5px 20px;
+    }
+}
