@@ -20,7 +20,7 @@
 /* for mobile screens */
 @media screen and (max-width:600px) {
     .projects img {
-        max-width: 70dvw;
+        max-width: 80dvw;
         padding: 12px;
     }
 
