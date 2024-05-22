@@ -60,7 +60,8 @@ nav a {
     font-style: none;
 }
 nav a:hover {
-    color: #ad8484;
+    color: #dfb08d;
+    transform: translateY(4px);
 }
 
 
