@@ -33,22 +33,35 @@
     border-color: rgb(210, 118, 145);  
     background: rgb(223, 117, 149);}  
 
+#dog-photo {
+    display: inline-block;
+    animation: wiggle 1s infinite
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
 
 /* styling for mobile */
 @media screen and (max-width:600px) {
 
-    #about-me-photo {
-        width: 160px;
-        height:160px;
+    #about-me-photo1 {
+        width: 120px;
+        height:120px;
         background-color: grey;
-        border-radius: 50%;
-        margin-top: 100px
+        border-radius: 500px 500px 0 0;
     }
     .about-me {
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
+        margin-top: 200px;
     }
 
     #about-me-header {
@@ -61,12 +74,73 @@
 
     .btn-resume {
         padding: 4px 16px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-top: 28px
     }
     .about-me-links a i {
         font-size: 30px;
         color: #8f5551;
+        padding: 10px;
+    }
+
+    #dog-photo {
+        height:260px;
+        width: 220px;
     }
 }
     
+/* styling for tablet and desktop */
+@media screen and (min-width:600px) {
+
+#about-me-photo2 {
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border-radius: 500px 500px 0 0;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me p {
+    text-align: center;
+    display: inline;
+    padding-top: 50px;
+}
+
+.desktop-about-me-header {
+    display: flex;
+    gap: 100px;
+    margin-top: 160px;
+}
+
+.desktop-about-me-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 80dvw;
+    align-items: center;
+}
+
+.about-me-links{
+    padding-top: 50px;
+    display: flex;
+    gap:20px;
+}
+
+.about-me-links a i {
+    font-size: 40px;
+    color: #8f5551;
+    padding: 10px;
+}
+
+    #dog-photo {
+        height: 500px;
+        width: 400px
+    }
+}
+
