@@ -18,7 +18,7 @@ The sticky navigation bar serves the purpose of keeping the navigation menu fixe
 * Introduction (text and header component)
 
 ![introduction-name-and-photo](./Screenshot-Introduction.png)
-There is a large introduction with my name and photo on the site's landing page. This will hopefully establish and reinforce my personal brand and create a lasting and memorable first impression to users.
+There is a large introduction with my name and photo on the site's landing page. This will hopefully establish and reinforce my personal brand and create a lasting and memorable first impression on users.
 <br>
 * Buttons (graphical component)
 
