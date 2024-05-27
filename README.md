@@ -17,28 +17,28 @@ The sticky navigation bar serves the purpose of keeping the navigation menu fixe
 <br>
 * Introduction (text and header component)
 
-![introduction-name-and-photo](./Screenshot-Introduction.png)
+![introduction-name-and-photo](./docs/Screenshot-Introduction.png
 There is a large introduction with my name and photo on the site's landing page. This will hopefully establish and reinforce my personal brand and create a lasting and memorable first impression on users.
 <br>
-* Buttons (graphical component)
+* Buttons (graphical component)g
 
-![Button](Screenshot-button1.png)
-![Button](./Screenshot-button2.png)
+![Button](./docs/Screenshot-button1.png)
+![Button](./docs/Screenshot-button2.png)
 Buttons are included throughout the website. They allow enhanced user experience as they feel interactive and guide users to take specific actions, such as submitting a form and viewing my CV. They also allow users to differenciate the buttons from other elements quickly.
 <br>
 * Images (graphical component)
 
-![images](Screenshot-projectimages.png)
+![images](./docs/Screenshot-projectimages.png)
 There are images placed throughout the website. The images have a zoom effect when users hover over them. This adds an interative element to the website, making it more engaging for users. The zoom effect also aid in drawing attention of users to important visuals and makes the site feel more responsive and intuitive.
 <br>
 * Contact Form (text component)
 
-![Contact form](./Screenshot-contactform.png)
+![Contact form](./docs/Screenshot-contactform.png
 The contact forms appear at the bottom of the landing page and on the contacts page. Having a contact form facilitates direct communcation between users and the website owner. It also makes it convenient for users to message directly from the websit as opposed to opening their email client and composing an email.
 <br>
 * Footer (graphical component)
 
-![Footer](./Screenshot-Footer.png)
+![Footer](./docs/Screenshot-Footer.png)
 The footer will be located at the bottom of every page. It will contain icons that will link to LinkedIn, Github and my email address.
 <br>
 
