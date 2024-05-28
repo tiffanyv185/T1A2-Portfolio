@@ -12,12 +12,12 @@ The pages include Home, About, Projects, Blog and Contacts.
 Throughout the website, there will be <b> components </b> including:
 
 * Sticky navigation bar (text component)
-![Navigation Bar](Screenshot-Nav-Bar.png)
+![Navigation Bar](./docs/Screenshot-Nav-Bar.png)
 The sticky navigation bar serves the purpose of keeping the navigation menu fixed at the top of the viewport as the users scroll down the page. Benefits of having the naviation bar include accessability; it remains visable to users at all times, and potentially increased engagement as easy access to the navation bar encourages users to stay on the site longer and interact with other pages.
 <br>
 * Introduction (text and header component)
 
-![introduction-name-and-photo](./docs/Screenshot-Introduction.png
+![introduction-name-and-photo](./docs/Screenshot-Introduction.png)
 There is a large introduction with my name and photo on the site's landing page. This will hopefully establish and reinforce my personal brand and create a lasting and memorable first impression on users.
 <br>
 * Buttons (graphical component)g
@@ -33,7 +33,7 @@ There are images placed throughout the website. The images have a zoom effect wh
 <br>
 * Contact Form (text component)
 
-![Contact form](./docs/Screenshot-contactform.png
+![Contact form](./docs/Screenshot-contactform.png)
 The contact forms appear at the bottom of the landing page and on the contacts page. Having a contact form facilitates direct communcation between users and the website owner. It also makes it convenient for users to message directly from the websit as opposed to opening their email client and composing an email.
 <br>
 * Footer (graphical component)
