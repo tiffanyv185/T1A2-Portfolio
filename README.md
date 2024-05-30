@@ -45,7 +45,7 @@ The footer will be located at the bottom of every page. It will contain icons th
 
 [Link to Github repo](https://github.com/tiffanyv185/T1A2-Portfolio.git)
 ### Sitemap
-![SiteMap](./SiteMap.png)
+![SiteMap](./docs/SiteMap.png)
 
 ### Target Audience
 The target audience for this site are potential employers who will be looking at hiring me for web development services.
