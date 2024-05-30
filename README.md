@@ -2,6 +2,15 @@
 
 ## Overview
 
+## Portfolio URL:
+https://huyen-tram-tiffany-vo-t1a2.netlify.app/
+
+## Github Repository
+https://github.com/tiffanyv185/T1A2-Portfolio.git
+
+## Target Audience
+The target audience for this site are potential employers who will be looking at hiring me for web development services.
+
 ## Purpose
 The purpose of this online web portfolio is to showcase my skills and capabalities regarding web devlopement to potential future employers. 
 
@@ -67,16 +76,10 @@ Having animated icons add visual appeal to the website; they make the website mo
 The footer will be located at the bottom of every page. It will contain icons that will link to LinkedIn, Github and my email address. The footer provides a consistent place for users to find important links, which ease naviagtion and allow for quick access to important destinations.
 <br>
 
-### Github Repository
-[Link to Github repo](https://github.com/tiffanyv185/T1A2-Portfolio.git)
-
-### Sitemap
+## Sitemap
 ![SiteMap](./docs/SiteMap.png)
 
-### Target Audience
-The target audience for this site are potential employers who will be looking at hiring me for web development services.
-
-### Tech Stack
+## Tech Stack
 * html
 * css
 * figma
