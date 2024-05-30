@@ -1,6 +1,6 @@
 /* graphical component #2 - button changes shapes and colours when hovered over */
 .btn-resume {  
-    font-family: var(--text-font)  
+    font-family: var(--text-font);  
     text-transform: uppercase;
     font-size: 16px
 }  

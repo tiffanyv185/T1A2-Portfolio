@@ -12,13 +12,13 @@ h1 {
 }
 
 h2 {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
     font-weight: 400;
     font-style: normal;
 }
 
 h3 {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
     font-weight: 400;
     font-style: normal;
 }
@@ -27,7 +27,7 @@ p {
     color: var(--text-color);
     font-family: var(--text-font);
     font-weight: 300;
-    font-style: birnak;
+    font-style: normal;
 }
 
 
@@ -58,7 +58,6 @@ nav a {
     text-decoration: none;
     font-family: var(--heading-font);
     font-weight: 400;
-    font-style: none;
 }
 nav a:hover {
     color: #dfb08d;
@@ -114,7 +113,7 @@ nav a:hover {
     95% {
      
               transform: translateY(-8px);
-      -webkit-animation-timing-function: ease-in;
+    
               animation-timing-function: ease-in;
     }
     100% {
@@ -195,7 +194,7 @@ input, textarea {
 }
 
 .btn-submit {  
-    font-family: var(--text-font)  
+    font-family: var(--text-font);  
     text-transform: uppercase;
 }  
 
@@ -206,7 +205,7 @@ input, textarea {
 .btn-submit{  
     height: 40px;  
     width: 244px;  
-    ont-size: 16px;  
+    font-size: 16px;  
     font-weight: 600;  
     background: transparent;  
     cursor: pointer;  
@@ -224,7 +223,6 @@ input, textarea {
 }  
 
 .btn-submit:hover {  
-    border-color: rgb(255, 99, 146);  
     background: rgb(255, 99, 146);}  
 
 footer {

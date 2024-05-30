@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   padding: 26px 60px;
 }
 
@@ -23,20 +23,22 @@
 .fa-hand {
   font-size: 60px;
   margin-bottom: 40px;
-  animation: rotate-45-cw 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
-	        animation: rotate-45-cw 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+  animation: rotate-45-cw 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate-reverse both;
+  animation: rotate-45-cw 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate-reverse both;
 }
 
- @keyframes rotate-45-cw {
+@keyframes rotate-45-cw {
   0% {
     transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
     transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
- }
+}
 
 #form-title {
   padding-bottom: 20px;
@@ -50,14 +52,14 @@
     align-items: center;
     margin-top: 100px;
   }
-.social-media-icons {
-  margin-bottom: 60px;
-  border-radius: 8px;
-  backdrop-filter: blur(20px);
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
+  .social-media-icons {
+    margin-bottom: 60px;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
   .social-media-icons a i {
     font-size: 40px;
     padding: 16px;
@@ -82,7 +84,4 @@
     padding: 16px;
   }
 
-  .social-media-icons {
-    max-height: ;
-  }
 }
