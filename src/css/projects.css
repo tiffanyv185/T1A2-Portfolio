@@ -49,6 +49,7 @@
     .projects-main {
         display: flex;
         text-align: center;
+        padding-top: 120px;
      
     }
     .projects-img {

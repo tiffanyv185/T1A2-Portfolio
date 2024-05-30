@@ -68,6 +68,7 @@
   .contact-main {
     flex-direction: column;
     align-items: center;
+    padding-top: 120px;
   }
 
   .desktop-contact-main {
