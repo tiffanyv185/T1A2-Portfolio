@@ -8,7 +8,7 @@
 main {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .full-blog-container {
@@ -29,6 +29,7 @@ main {
     max-width: 85dvw;
     padding: 20px;
     margin-top: 100px;
+    padding-bottom: 60px;
 
 }
 
@@ -43,5 +44,10 @@ main {
 @media screen and (min-width:600px) {
     .post-image {
         max-width: 60dvw;
+    }
+
+    p {
+        max-width: 70dvw;
+        margin: auto;
     }
 }
