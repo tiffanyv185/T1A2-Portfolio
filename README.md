@@ -67,8 +67,9 @@ Having animated icons add visual appeal to the website; they make the website mo
 The footer will be located at the bottom of every page. It will contain icons that will link to LinkedIn, Github and my email address. The footer provides a consistent place for users to find important links, which ease naviagtion and allow for quick access to important destinations.
 <br>
 
-
+### Github Repository
 [Link to Github repo](https://github.com/tiffanyv185/T1A2-Portfolio.git)
+
 ### Sitemap
 ![SiteMap](./docs/SiteMap.png)
 
