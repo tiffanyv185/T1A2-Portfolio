@@ -1,4 +1,6 @@
-# T1A2-Portfolio
+# T1A2: Portfolio
+# Huyen Tram Tiffany Vo
+<br>
 
 # Overview
 
@@ -31,7 +33,7 @@ Throughout the website, there will be <b> components </b> including:
 The sticky navigation bar serves the purpose of keeping the navigation menu fixed at the top of the viewport as the users scroll down the page. Benefits of having the naviation bar include accessability; it remains visable to users at all times, and potentially increased engagement as easy access to the navation bar encourages users to stay on the site longer and interact with other pages.
 <br>
 
-- <b>Greating and Introduction (text component)</b>
+- <b>Greeting and Introduction (text component)</b>
 
 ![introduction-name-and-photo](./docs/Screenshot-Introduction.png)
 
